@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <title>摄像头</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./renderer/renderer.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="videoBox">
+            <video></video>
+        </div>
+        <div class="menu">
+            <div class="icon camera">
+                <img src="./static/icon/menu/shexiangtou.png" alt="">
+                <div class="cameraList"><div class="box"></div></div>
+            </div>
+            <div class="icon mirror">
+                <img src="./static/icon/menu/jingxiang.png" alt="">
+            </div>
+            <div class="icon round">
+                <div class="box"></div>
+                <div class="range">
+                    <input type="range" name="" id="" max="50" value="0">
+                </div>
+            </div>
+            <div class="icon scale"><div class="text"><span>等比</span><span class="scale">1:1</span></div></div>
+            <div class="drag"></div>
+        </div>
+    </main>
+</body>
+
+</html>
